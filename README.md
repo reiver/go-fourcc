@@ -16,7 +16,7 @@ Online documentation, which includes examples, can be found at: http://godoc.org
 [![GoDoc](https://godoc.org/github.com/reiver/go-fourcc?status.svg)](https://godoc.org/github.com/reiver/go-fourcc)
 
 
-## Example
+## Examples
 
 Here is an example usage:
 
@@ -64,3 +64,8 @@ var colorspace fourcc.Type
 
 err := colorspace.Scan(p)
 ```
+
+
+## See Also
+
+* [FOURCC.org](https://www.fourcc.org/)
