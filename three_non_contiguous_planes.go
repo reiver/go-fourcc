@@ -1,6 +1,6 @@
 package fourcc
 
-// three non contiguous planes - Y, Cb, Cr
+// Three non contiguous planes - Y, Cb, Cr
 const (
 	YUV420M = Const("YM12") // depth: 12; description: YUV420 planar
 	YVU420M = Const("YM21") // depth: 12; description: YVU420 planar

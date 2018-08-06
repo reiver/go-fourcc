@@ -1,6 +1,6 @@
 package fourcc
 
-// three planes - Y Cb, Cr
+// Three planes - Y Cb, Cr
 const (
 	YUV410  = Const("YUV9") // depth:  9; description: YUV 4:1:0
 	YVU410  = Const("YVU9") // depth:  9; description: YVU 4:1:0

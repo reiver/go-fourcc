@@ -1,6 +1,6 @@
 package fourcc
 
-// two planes -- one Y, one Cr + Cb interleaved
+// Two planes -- one Y, one Cr + Cb interleaved
 const (
 	NV12 = Const("NV12") // depth: 12; description: Y/CbCr 4:2:0
 	NV21 = Const("NV21") // depth: 12; description: Y/CrCb 4:2:0

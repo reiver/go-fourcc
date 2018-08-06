@@ -1,6 +1,6 @@
 package fourcc
 
-// two non contiguous planes - one Y, one Cr + Cb interleaved
+// Two non contiguous planes - one Y, one Cr + Cb interleaved
 const (
 	NV12M        = Const("NM12") // depth: 12; description: Y/CbCr 4:2:0
 	NV21M        = Const("NM21") // depth: 21; description: Y/CrCb 4:2:0
