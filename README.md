@@ -54,7 +54,7 @@ var p [4]byte = [4]byte{'P','A','L','8'}
 var colorspace fourcc.Type
 
 err := colorspace.Scan(p)
-
+```
 
 And:
 ```go
@@ -63,3 +63,4 @@ var p []byte = []byte{'P','A','L','8'}
 var colorspace fourcc.Type
 
 err := colorspace.Scan(p)
+```
