@@ -6,7 +6,7 @@ Introduction
 
 FOURCC, also sometimes written as FourCC and 4CC, are all short for “four character code”.
 
-FOURCC is a sequence of 4 8-bit bytes packed into an unsigned 32-bit integer which, uniquely identifies a data format.
+FOURCC, is a sequence of 4 8-bit bytes packed into an unsigned 32-bit integer which, uniquely identifies a data format.
 
 (A character in this context is a 1 byte (i.e., 8 bit) value. Thus a FOURCC always takes up exatly 32 bits (i.e., 4 bytes).)
 
@@ -29,7 +29,7 @@ Here are some sample FOURCC.
 	│ MJPG  │ 0x47504A4D                     │
 	└───────┴────────────────────────────────┘
 
-The way you can understand how these labels get urned in unsigned integers is, if we consider the FOURCC “PAL8”, then:
+The way you can understand how these labels get turned in unsigned integers is, if we consider the FOURCC “PAL8”, then:
 
 	ASCII ‘P’ = hexadecimal 0x50
 	ASCII ‘A’ = hexadecimal 0x41

@@ -14,7 +14,7 @@ Online documentation, which includes examples, can be found at: http://godoc.org
 
 FOURCC, also sometimes written as **FourCC** and **4CC**, are all short for “four character code”.
 
-**FOURCC** is a sequence of _4 8-bit bytes_ packed into an _unsigned 32-bit integer_ which, **uniquely identifies** a data format.
+**FOURCC**, is a sequence of _4 8-bit bytes_ packed into an _unsigned 32-bit integer_ which, **uniquely identifies** a data format.
 
 (A character in this context is a 1 byte (i.e., 8 bit) value. Thus a FOURCC always takes up exatly 32 bits (i.e., 4 bytes).)
 
@@ -32,7 +32,7 @@ Here are some sample FOURCC.
 | H264  | 0x34363248                     |
 | MJPG  | 0x47504A4D                     |
 
-The way you can understand how these _labels_ get urned in _unsigned integers_ is, if we consider the FOURCC “PAL8”, then:
+The way you can understand how these _labels_ get turned in _unsigned integers_ is, if we consider the FOURCC “PAL8”, then:
 ```
 ASCII ‘P’ = hexadecimal 0x50
 ASCII ‘A’ = hexadecimal 0x41
