@@ -1,6 +1,6 @@
 # go-fourcc
 
-Package **fourcc** provides tools for working with the FOURCC data format, for the Go programming language.	
+Package **fourcc** is a Go implementation of **FOURCC** (**four character code**) (**4CC**) identifiers for a video codecs, compression formats, colors and pixel format used in media files. 
 
 FOURCC (also sometimes called 4CC) is short for "four character code".
 
