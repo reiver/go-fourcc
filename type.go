@@ -4,7 +4,7 @@ package fourcc
 //
 // The compact way of storing a FOURCC is as a uint32.
 //
-// Effectively Type is just a uint32.
+// Effectively Type is just an uint32.
 type Type struct {
 	value uint32
 }
