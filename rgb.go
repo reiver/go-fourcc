@@ -1,5 +1,6 @@
 package fourcc
 
+// RGB formats
 const (
 
 	RGB332  = Const("RGB1") // depth:  8; description: RGB-3-3-2
