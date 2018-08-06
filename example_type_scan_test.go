@@ -6,7 +6,7 @@ import (
 	"fmt"
 )
 
-func ExampleType_MarshalText_bytes() {
+func ExampleType_Scan_bytes() {
 
 
 	var p []byte = []byte{'P','A','L','8'}
@@ -27,7 +27,7 @@ func ExampleType_MarshalText_bytes() {
 	// 384C4150
 }
 
-func ExampleType_MarshalText_int64() {
+func ExampleType_Scan_int64() {
 
 
 	var i64 int64 = 0x384C4150
@@ -49,7 +49,7 @@ func ExampleType_MarshalText_int64() {
 }
 
 
-func ExampleType_MarshalText_string() {
+func ExampleType_Scan_string() {
 
 	var colorspace fourcc.Type
 
@@ -67,7 +67,7 @@ func ExampleType_MarshalText_string() {
 	// 384C4150
 }
 
-func ExampleType_MarshalText_uint32() {
+func ExampleType_Scan_uint32() {
 
 
 	var ui32 uint32 = 0x384C4150
@@ -88,7 +88,7 @@ func ExampleType_MarshalText_uint32() {
 	// 384C4150
 }
 
-func ExampleType_MarshalText_uint64() {
+func ExampleType_Scan_uint64() {
 
 
 	var ui64 uint64 = 0x384C4150
