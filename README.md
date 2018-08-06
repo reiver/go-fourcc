@@ -41,7 +41,7 @@ ASCII ‘8’ = hexadecimal 0x38
 ```
 And then these 8-bit bytes as packed into an unsigned integer in reverse order.
 
-I.e,.:
+I.e.,:
 ```go
 var value uint32 = (uint32('P') | (uint32('A') << 8) | (uint32('L') << 16) | (uint32('8') << 24))
 ```
